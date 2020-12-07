@@ -66,19 +66,19 @@ class DateTimeUtils {
     return "${sign}000$absN";
   }
 
-  static String _sixDigits(int n) {
-    assert(n < -9999 || n > 9999);
-    int absN = n.abs();
-    String sign = n < 0 ? "-" : "+";
-    if (absN >= 100000) return "$sign$absN";
-    return "${sign}0$absN";
-  }
-
-  static String _threeDigits(int n) {
-    if (n >= 100) return "${n}";
-    if (n >= 10) return "0${n}";
-    return "00${n}";
-  }
+  // static String _sixDigits(int n) {
+  //   assert(n < -9999 || n > 9999);
+  //   int absN = n.abs();
+  //   String sign = n < 0 ? "-" : "+";
+  //   if (absN >= 100000) return "$sign$absN";
+  //   return "${sign}0$absN";
+  // }
+  //
+  // static String _threeDigits(int n) {
+  //   if (n >= 100) return "${n}";
+  //   if (n >= 10) return "0${n}";
+  //   return "00${n}";
+  // }
 
   static String _twoDigits(int n) {
     if (n >= 10) return "${n}";
