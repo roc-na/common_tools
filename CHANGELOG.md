@@ -4,6 +4,7 @@
 
 ## [0.0.2] - 2020-12-07.
 
-* Add DateTimeUtils,StringUtils
-* Add example folder
+* Add [DateTimeUtils](https://github.com/roc-na/common_tools/blob/master/lib/datetime/DateTimeUtils.dart)
+* Add [StringUtils](https://github.com/roc-na/common_tools/blob/master/lib/string/StringUtils.dart)
+* Add [example](https://github.com/roc-na/common_tools/tree/master/example) folder
 
