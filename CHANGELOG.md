@@ -1,3 +1,9 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2020-12-03.
 
-* TODO: Describe initial release.
+* Initial
+
+## [0.0.2] - 2020-12-07.
+
+* Add DateTimeUtils,StringUtils
+* Add example folder
+
